@@ -15,20 +15,21 @@
 }
 
 .formulier {
+    border:2px solid #121212;
+    background-color: #158ef1;
     width: 18%;
-    background-color: #f6e2ff;
     padding: 50px;
     border-radius: 20px;
     margin: auto;
     width: 100%;
     padding: 15px;
-    border: 4px solid #bb6adf;
+    color: white;
   }
 
   @media screen and (max-width: 1000px) {
     .formulier {
       width: 68%;
-      background-color: #f6e2ff;
+      background-color: #158ef1;
       padding: 10px;
       border-radius: 20px;
       margin: auto;
@@ -39,3 +40,14 @@
     font-size: 28px;
     color: black;
 }  
+
+.footericonswit {
+    font-size: 28px;
+    color: white;
+}  
+
+.achtergrond {
+    background-image: url(/project2/images/achtergrondcontact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

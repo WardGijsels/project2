@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/project2/bootstrap/bootstrap-icons-1.11.1/bootstrap-icons.min.css">
 </head>
 
-<body>
+<body class="achtergrond">
     <!-- navbar !-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -43,68 +43,71 @@
         </div>
     </nav> <!-- einde navbar-->
 
-    <!-- form -->
-    <form method="post" action="//tm-statweb.be/forms.php">
-        <div class="container formulier mt-5">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-3">
-                    <label for="voornaamInput" class="form-label">Voornaam</label>
-                    <input type="text" class="form-control" id="voornaamInput" placeholder="Voornaam" required>
-                </div>
-                <div class="col-lg-6 col-md-12 mb-3">
-                    <label for="naamInput" class="form-label">Naam</label>
-                    <input type="text" class="form-control" id="naamInput" placeholder="Naam" required>
-                </div>
-                <div class="mb-3">
-                    <label for="emailInput" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="emailInput"
-                        placeholder="name@example.com" required>
-                </div>
-                <!-- selectielijst -->
-                <div class="mb-3">
-                    <label for="interesseSelect" class="form-label">Interesse in skills</label>
-                    <select class="form-select" id="interesseSelect" required aria-label="select example">
-                        <option value="">Interesse in skills</option>
-                        <option value="1">HTML</option>
-                        <option value="2">CSS</option>
-                        <option value="3">C#</option>
-                    </select>
-                    <div class="invalid-feedback">Maak een keuze</div>
-                </div>
-            </div>
-            <!-- text area -->
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Vraag</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-            <!-- button -->
-            <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-        </div>
-    </form>
+                    <!-- form -->
+                    <form method="post" action="//tm-statweb.be/forms.php">
+                        <div class="container formulier mt-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="text-center">Contacteer mij:</h1>
+                                </div>
+                                <div class="col-lg-6 col-md-12 mb-3">
+                                    <label for="voornaamInput" class="form-label">Voornaam</label>
+                                    <input type="text" class="form-control" id="voornaamInput" placeholder="Voornaam" required>
+                                </div>
+                                <div class="col-lg-6 col-md-12 mb-3">
+                                    <label for="naamInput" class="form-label">Naam</label>
+                                    <input type="text" class="form-control" id="naamInput" placeholder="Naam" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="emailInput" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="emailInput"
+                                        placeholder="name@example.com" required>
+                                </div>
+                                <!-- selectielijst -->
+                                <div class="mb-3">
+                                    <label for="interesseSelect" class="form-label">Interesse in skills</label>
+                                    <select class="form-select" id="interesseSelect" required aria-label="select example">
+                                        <option value="">Interesse in skills</option>
+                                        <option value="1">HTML</option>
+                                        <option value="2">CSS</option>
+                                        <option value="3">C#</option>
+                                    </select>
+                                    <div class="invalid-feedback">Maak een keuze</div>
+                                </div>
+                            </div>
+                            <!-- text area -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Vraag</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                            <!-- button -->
+                            <div class="col-12">
+                                <button class="btn btn-dark" type="submit">Submit form</button>
+                            </div>
+                        </div>
+                    </form>
 
     <!-- footer -->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-6 d-flex align-items-center">
-                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Ward Gijsels</span>
+                <span class="mb-3 mb-md-0 text-light">&copy; 2023 Ward Gijsels</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li>
                     <a href="https://www.facebook.com/" target="_blank">
-                        <i class="bi bi-facebook footericons"></i>
+                        <i class="bi bi-facebook footericonswit"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/home" target="_blank">
-                        <i class="bi bi-twitter-x footericons"></i>
+                        <i class="bi bi-twitter-x footericonswit"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/" target="_blank">
-                        <i class="bi bi-instagram footericons"></i>
+                        <i class="bi bi-instagram footericonswit"></i>
                     </a>
                 </li>
             </ul>
