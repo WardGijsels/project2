@@ -13,3 +13,29 @@
 .paars {
     background-color: #bb6adf
 }
+
+.formulier {
+    width: 18%;
+    background-color: #f6e2ff;
+    padding: 50px;
+    border-radius: 20px;
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+    border: 4px solid #bb6adf;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .formulier {
+      width: 68%;
+      background-color: #f6e2ff;
+      padding: 10px;
+      border-radius: 20px;
+      margin: auto;
+    }
+  }
+
+.footericons {
+    font-size: 28px;
+    color: black;
+}  
