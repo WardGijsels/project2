@@ -181,7 +181,7 @@
                 <div class="col-md-3">
                     <div class="card mb-3" style="width: 18rem; height: 16rem;">
                         <div class="card-body">
-                            <h4 class="card-title">Hobbyy's</h4>
+                            <h4 class="card-title">Hobby's</h4>
                             <ul class="card-text">
                                 <li>Concerten / festivals</li>
                                 <li>Gamen</li>
@@ -190,73 +190,67 @@
                         </div>
                     </div>
                 </div>
+            </div> 
+        </div> <!-- Close the div with class "container" -->
+    </div> <!-- Close the div with class "row" -->
 
-                <!-- div.container>div.row>div.col-md-12 !-->
-                <div class="container">
-                    <div class="row">
-                        <h1>skills</h1>
-                        <div class="col-md-12">
+            <!-- Skills  -->
+            <div class="container">
+                <div class="row">
+                    <h1>Skills</h1>
+                    <div class="col-md-12">
+                        <!-- Carousel -->
+                        <div class="card">
+                            <div class="card-body">
+                                
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item"><img src="/project2/images/skills/HTML5.png" alt="HTML"></div>
+                                    <div class="item"><img src="/project2/images/skills/CSS.png" alt="CSS"></div>
+                                    <div class="item"><img src="/project2/images/skills/Bootstrap.png"
+                                        alt="Bootstrap"></div>
+                                    <div class="item"><img src="/project2/images/skills/SQL.png" alt="SQL"></div>
+                                    <div class="item"><img src="/project2/images/skills/Csharp.png" alt="C#"></div>
+                                </div>
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
 
-                            <!-- Carousel -->
-                            <div class="card">
-                                <div class="card-body">
+            <!-- Footer -->
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Ward Gijsels</span>
+                    </div>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="bi bi-facebook footericons"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/home" target="_blank">
+                                <i class="bi bi-twitter-x footericons"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="bi bi-instagram footericons"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
 
-
-                                    <!-- Set up your HTML -->
-                                    <div class="owl-carousel owl-theme">
-                                        <div class="item"><img src="/project2/images/skills/HTML5.png" alt="HTML"></div>
-                                        <div class="item"><img src="/project2/images/skills/CSS.png" alt="CSS"></div>
-                                        <div class="item"><img src="/project2/images/skills/Bootstrap.png"
-                                                alt="Bootstrap"></div>
-                                        <div class="item"><img src="/project2/images/skills/SQL.png" alt="SQL"></div>
-                                        <div class="item"><img src="/project2/images/skills/Csharp.png" alt="C#"></div>
-                                    </div>
-
-                                </div> <!-- // card body-->
-                            </div> <!-- // card -->
-
-                        </div> <!-- col -->
-                    </div> <!-- row -->
-                </div> <!-- container -->
-
-                <!-- footer -->
-                <div class="container">
-                    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                        <div class="col-md-6 d-flex align-items-center">
-                            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Ward Gijsels</span>
-                        </div>
-
-                        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                            <li>
-                                <a href="https://www.facebook.com/" target="_blank">
-                                    <i class="bi bi-facebook footericons"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/home" target="_blank">
-                                    <i class="bi bi-twitter-x footericons"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/" target="_blank">
-                                    <i class="bi bi-instagram footericons"></i>
-                                </a>
-                            </li>
-                        </ul>
-
-                    </footer>
-                </div>
-                <!-- Einde footer -->
-
-
-                <script src="/project2/bootstrap/js/bootstrap.min.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-                <script src="/project2/vendor/owl-carousel/dist/owl.carousel.js"></script>
-
-                <script>$(document).ready(function () {
-                        $(".owl-carousel").owlCarousel();
-                    });
-                </script>
-</body>
-
-</html>
+        <!-- Scripts -->
+        <script src="/project2/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="/project2/vendor/owl-carousel/dist/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel();
+            });
+        </script>
+    </body>
+    </html>
